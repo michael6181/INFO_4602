@@ -10,7 +10,7 @@ time, so I made my visualizations on Tableau, and I’d like to explain them and
 useful even though I didn’t follow the requirements of the assignment.
 
 <h2>Design and Running:</h2>
-Design Process: When I was working with D3, I also was using python in order to scrub the data
+<u>Design Process:</u> When I was working with D3, I also was using python in order to scrub the data
 and make it so it was useable in D3. This scrubbing and preprocessing was successful. I used
 pandas, to sort through the CSV and get rid of unwanted data for my visualization, and I also
 used pandas to get rid of null values and other useless data in the dataset. When I attempted to
@@ -19,12 +19,12 @@ Tableau. If I couldn’t get a chart working with D3 I figured it would be bette
 thinking behind each visualization instead.
 
 
-Running the Visualizations: These are Tableau files so they must be ran in Tableau. However,
+<u>Running the Visualizations:</u> These are Tableau files so they must be ran in Tableau. However,
 these are great visualizations that I feel explain the data and provide very useful insights into the
 data. Once in Tableau, load the CSV as the source file, and open the workbook.
 
 <h2>Visualizations:</h2>
-Visualization 1: Visualization 1 is a Bubble chart where each bubble is a different country in the
+<u>Visualization 1:</u> Visualization 1 is a Bubble chart where each bubble is a different country in the
 dataset. The size of each bubble is determined by the count of the number of countries in the
 dataset. This is a categorical representation of the data, and it shows from where in the world
 these responses came from. From this visualization, we can see where most responses came from
@@ -34,7 +34,7 @@ our participants. Another interesting visualization along these lines would be a
 where each nation is the size of their response counts.
 
 
-Visualization 2: This second visualization is also very useful in providing insights into the data.
+<u>Visualization 2:</u> This second visualization is also very useful in providing insights into the data.
 In this visualization, the x-axis has been adjusted to show the most major spike in the data. This
 data is showing the number of submissions by date. This is a very interesting visualization
 because it gives a look into spikes in responses to the survey. I would be interested in finding out
