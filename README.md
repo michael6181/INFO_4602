@@ -16,7 +16,7 @@ pandas, to sort through the CSV and get rid of unwanted data for my visualizatio
 used pandas to get rid of null values and other useless data in the dataset. When I attempted to
 read the scrubbed CSV into D3, I was unable to produce a working chart, hence the use of
 Tableau. If I couldn’t get a chart working with D3 I figured it would be better to explain my
-thinking behind each visualization instead.
+thinking behind each visualization instead. <br/>
 
 Running the Visualizations: These are Tableau files so they must be ran in Tableau. However,
 these are great visualizations that I feel explain the data and provide very useful insights into the
@@ -30,7 +30,7 @@ these responses came from. From this visualization, we can see where most respon
 and how that affects the different answers from the survey. As we can see, most of the responses
 came from France, Germany, and Italy. This allows us to have insight into the backgrounds of
 our participants. Another interesting visualization along these lines would be a map of the world
-where each nation is the size of their response counts.
+where each nation is the size of their response counts.<br/>
 
 Visualization 2: This second visualization is also very useful in providing insights into the data.
 In this visualization, the x-axis has been adjusted to show the most major spike in the data. This
