@@ -16,8 +16,7 @@ pandas, to sort through the CSV and get rid of unwanted data for my visualizatio
 used pandas to get rid of null values and other useless data in the dataset. When I attempted to
 read the scrubbed CSV into D3, I was unable to produce a working chart, hence the use of
 Tableau. If I couldn’t get a chart working with D3 I figured it would be better to explain my
-thinking behind each visualization
-instead.
+thinking behind each visualization instead.
 
 
 <u>Running the Visualizations:</u> These are Tableau files so they must be ran in Tableau. However,
