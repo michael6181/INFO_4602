@@ -1,0 +1,1395 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='20171013111831-SurveyExport' inline='true' name='federated.16k9mrz0w3p68b16ieth002zx3oh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='20171013111831-SurveyExport' name='textscan.19fbntm1sr7gf611lxnak09goz1e'>
+            <connection class='textscan' directory='D:/INFO 4602/Projects/Mozilla Project/project-1-mozilla-group-5' filename='20171013111831-SurveyExport.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.19fbntm1sr7gf611lxnak09goz1e' name='20171013111831-SurveyExport.csv' table='[20171013111831-SurveyExport#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Response ID' ordinal='0' />
+            <column datatype='datetime' name='Time Started' ordinal='1' />
+            <column datatype='datetime' name='Date Submitted' ordinal='2' />
+            <column datatype='string' name='Status' ordinal='3' />
+            <column datatype='string' name='Language' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='Link Name' ordinal='6' />
+            <column datatype='string' name='I consider myself:' ordinal='7' />
+            <column datatype='string' name='WiFi Router:Check all the internet connected devices you currently own:' ordinal='8' />
+            <column datatype='string' name='Laptop computer:Check all the internet connected devices you currently own:' ordinal='9' />
+            <column datatype='string' name='Smart phone:Check all the internet connected devices you currently own:' ordinal='10' />
+            <column datatype='string' name='Smart TV:Check all the internet connected devices you currently own:' ordinal='11' />
+            <column datatype='string' name='Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:' ordinal='12' />
+            <column datatype='string' name='Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:' ordinal='13' />
+            <column datatype='string' name='Car that connects to the internet:Check all the internet connected devices you currently own:' ordinal='14' />
+            <column datatype='string' name='Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:' ordinal='15' />
+            <column datatype='string' name='Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:' ordinal='16' />
+            <column datatype='string' name='Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you current' ordinal='17' />
+            <column datatype='string' name='Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:' ordinal='18' />
+            <column datatype='string' name='Thinking about a future in which so much of your world is connected to the internet leaves you feeling:' ordinal='19' />
+            <column datatype='string' name='What are you most excited about as we move toward a more digitally connected future?' ordinal='20' />
+            <column datatype='string' name='What is your biggest fear as we move towards a more connected future?' ordinal='21' />
+            <column datatype='string' name='Who is most responsible for protecting the online safety, privacy, and security of the connected apps and devices you own?' ordinal='22' />
+            <column datatype='string' name='Who do you most trust to help you learn how to protect your safety, security and privacy online?' ordinal='23' />
+            <column datatype='integer' name='Price:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at th' ordinal='24' />
+            <column datatype='integer' name='Features:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at' ordinal='25' />
+            <column datatype='integer' name='Safety:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at t' ordinal='26' />
+            <column datatype='integer' name='Security:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at' ordinal='27' />
+            <column datatype='integer' name='Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at ' ordinal='28' />
+            <column datatype='integer' name='Reliability:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look' ordinal='29' />
+            <column datatype='integer' name='User Reviews:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a loo' ordinal='30' />
+            <column datatype='integer' name='Expert Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊT' ordinal='31' />
+            <column datatype='integer' name='Friend or Family Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smart' ordinal='32' />
+            <column datatype='integer' name='Convenience:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look' ordinal='33' />
+            <column datatype='string' name='IoT:Check all the terms below that you could explain to a friend:' ordinal='34' />
+            <column datatype='string' name='Connected Devices:Check all the terms below that you could explain to a friend:' ordinal='35' />
+            <column datatype='string' name='Botnet:Check all the terms below that you could explain to a friend:' ordinal='36' />
+            <column datatype='string' name='Blockchain:Check all the terms below that you could explain to a friend:' ordinal='37' />
+            <column datatype='string' name='RFID:Check all the terms below that you could explain to a friend:' ordinal='38' />
+            <column datatype='string' name='DDOS:Check all the terms below that you could explain to a friend:' ordinal='39' />
+            <column datatype='string' name='Zero Day:Check all the terms below that you could explain to a friend:' ordinal='40' />
+            <column datatype='string' name='VPN:Check all the terms below that you could explain to a friend:' ordinal='41' />
+            <column datatype='string' name='TOR:Check all the terms below that you could explain to a friend:' ordinal='42' />
+            <column datatype='string' name='I don‰Ûªt know what any of these things are:Check all the terms below that you could explain to a friend:' ordinal='43' />
+            <column datatype='string' name='Country or Region (optional)' ordinal='44' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='record-delimiter'>&quot;\\r&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Response ID]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Response ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Started</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Time Started]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Time Started</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Submitted</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date Submitted]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Date Submitted</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Language]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Language</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Link Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Link Name]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Link Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I consider myself:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[I consider myself:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>I consider myself:</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WiFi Router:Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WiFi Router:Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>WiFi Router:Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Laptop computer:Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Laptop computer:Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Laptop computer:Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart phone:Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart phone:Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart phone:Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart TV:Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart TV:Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart TV:Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Activity Tracker (ex: Fitbit or Apple Watch):Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smarthome Hub (ex. Amazon Echo, Google Alexa):Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Car that connects to the internet:Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Car that connects to the internet:Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Car that connects to the internet:Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart Thermostat (ex: Nest):Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge):Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you current</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you current]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart Door Locks (ex. Door locks for your home you can open via bluetooth):Check all the internet connected devices you current</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs):Check all the internet connected devices you currently own:</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thinking about a future in which so much of your world is connected to the internet leaves you feeling:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Thinking about a future in which so much of your world is connected to the internet leaves you feeling:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Thinking about a future in which so much of your world is connected to the internet leaves you feeling:</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are you most excited about as we move toward a more digitally connected future?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are you most excited about as we move toward a more digitally connected future?]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>What are you most excited about as we move toward a more digitally connected future?</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What is your biggest fear as we move towards a more connected future?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What is your biggest fear as we move towards a more connected future?]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>What is your biggest fear as we move towards a more connected future?</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Who is most responsible for protecting the online safety, privacy, and security of the connected apps and devices you own?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Who is most responsible for protecting the online safety, privacy, and security of the connected apps and devices you own?]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Who is most responsible for protecting the online safety, privacy, and security of the connected apps and devices you own?</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Who do you most trust to help you learn how to protect your safety, security and privacy online?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Who do you most trust to help you learn how to protect your safety, security and privacy online?]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Who do you most trust to help you learn how to protect your safety, security and privacy online?</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at th</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at th]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Price:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at th</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Features:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Features:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Features:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Safety:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at t</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Safety:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at t]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Safety:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at t</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Security:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Security:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Security:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at ]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at </remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reliability:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reliability:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Reliability:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User Reviews:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a loo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User Reviews:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a loo]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>User Reviews:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a loo</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expert Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expert Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊT]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Expert Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊT</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Friend or Family Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smart</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Friend or Family Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smart]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Friend or Family Recommendation:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smart</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Convenience:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Convenience:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Convenience:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IoT:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IoT:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>IoT:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Connected Devices:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Connected Devices:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Connected Devices:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Botnet:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Botnet:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Botnet:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blockchain:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Blockchain:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Blockchain:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RFID:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RFID:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>RFID:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DDOS:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DDOS:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>DDOS:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zero Day:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Zero Day:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Zero Day:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VPN:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VPN:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>VPN:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOR:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TOR:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>TOR:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>I don‰Ûªt know what any of these things are:Check all the terms below that you could explain to a friend:</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[I don‰Ûªt know what any of these things are:Check all the terms below that you could explain to a friend:]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>I don‰Ûªt know what any of these things are:Check all the terms below that you could explain to a friend:</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country or Region (optional)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country or Region (optional)]</local-name>
+            <parent-name>[20171013111831-SurveyExport.csv]</parent-name>
+            <remote-alias>Country or Region (optional)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country (group)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <calculation class='categorical-bin' column='[Country]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Afghanistan, Albania, Algeria and 214 more&quot;'>
+            <value>&quot;Afghanistan&quot;</value>
+            <value>&quot;Albania&quot;</value>
+            <value>&quot;Algeria&quot;</value>
+            <value>&quot;American Samoa&quot;</value>
+            <value>&quot;Andorra&quot;</value>
+            <value>&quot;Angola&quot;</value>
+            <value>&quot;Anguilla&quot;</value>
+            <value>&quot;Anonymous Proxy&quot;</value>
+            <value>&quot;Antigua and Barbuda&quot;</value>
+            <value>&quot;Argentina&quot;</value>
+            <value>&quot;Armenia&quot;</value>
+            <value>&quot;Aruba&quot;</value>
+            <value>&quot;Asia/Pacific Region&quot;</value>
+            <value>&quot;Australia&quot;</value>
+            <value>&quot;Austria&quot;</value>
+            <value>&quot;Azerbaijan&quot;</value>
+            <value>&quot;Bahamas&quot;</value>
+            <value>&quot;Bahrain&quot;</value>
+            <value>&quot;Bangladesh&quot;</value>
+            <value>&quot;Barbados&quot;</value>
+            <value>&quot;Belarus&quot;</value>
+            <value>&quot;Belgium&quot;</value>
+            <value>&quot;Belize&quot;</value>
+            <value>&quot;Benin&quot;</value>
+            <value>&quot;Bhutan&quot;</value>
+            <value>&quot;Bolivia&quot;</value>
+            <value>&quot;Bosnia and Herzegovina&quot;</value>
+            <value>&quot;Botswana&quot;</value>
+            <value>&quot;Brazil&quot;</value>
+            <value>&quot;Brunei Darussalam&quot;</value>
+            <value>&quot;Bulgaria&quot;</value>
+            <value>&quot;Burkina Faso&quot;</value>
+            <value>&quot;Burundi&quot;</value>
+            <value>&quot;Cambodia&quot;</value>
+            <value>&quot;Cameroon&quot;</value>
+            <value>&quot;Canada&quot;</value>
+            <value>&quot;Cape Verde&quot;</value>
+            <value>&quot;Cayman Islands&quot;</value>
+            <value>&quot;Central African Republic&quot;</value>
+            <value>&quot;Chad&quot;</value>
+            <value>&quot;Chile&quot;</value>
+            <value>&quot;China&quot;</value>
+            <value>&quot;Christmas Island&quot;</value>
+            <value>&quot;Colombia&quot;</value>
+            <value>&quot;Comoros&quot;</value>
+            <value>&quot;Congo&quot;</value>
+            <value>&quot;Congo, The Democratic Republic of the&quot;</value>
+            <value>&quot;Costa Rica&quot;</value>
+            <value>&quot;Cote D&apos;Ivoire&quot;</value>
+            <value>&quot;Croatia&quot;</value>
+            <value>&quot;Cuba&quot;</value>
+            <value>&quot;Curacao&quot;</value>
+            <value>&quot;Cyprus&quot;</value>
+            <value>&quot;Czech Republic&quot;</value>
+            <value>&quot;Denmark&quot;</value>
+            <value>&quot;Djibouti&quot;</value>
+            <value>&quot;Dominica&quot;</value>
+            <value>&quot;Dominican Republic&quot;</value>
+            <value>&quot;Ecuador&quot;</value>
+            <value>&quot;Egypt&quot;</value>
+            <value>&quot;El Salvador&quot;</value>
+            <value>&quot;Equatorial Guinea&quot;</value>
+            <value>&quot;Estonia&quot;</value>
+            <value>&quot;Ethiopia&quot;</value>
+            <value>&quot;Europe&quot;</value>
+            <value>&quot;Fiji&quot;</value>
+            <value>&quot;Finland&quot;</value>
+            <value>&quot;France&quot;</value>
+            <value>&quot;French Guiana&quot;</value>
+            <value>&quot;French Polynesia&quot;</value>
+            <value>&quot;Gabon&quot;</value>
+            <value>&quot;Gambia&quot;</value>
+            <value>&quot;Georgia&quot;</value>
+            <value>&quot;Germany&quot;</value>
+            <value>&quot;Ghana&quot;</value>
+            <value>&quot;Gibraltar&quot;</value>
+            <value>&quot;Greece&quot;</value>
+            <value>&quot;Grenada&quot;</value>
+            <value>&quot;Guadeloupe&quot;</value>
+            <value>&quot;Guam&quot;</value>
+            <value>&quot;Guatemala&quot;</value>
+            <value>&quot;Guernsey&quot;</value>
+            <value>&quot;Guinea&quot;</value>
+            <value>&quot;Guyana&quot;</value>
+            <value>&quot;Haiti&quot;</value>
+            <value>&quot;Holy See (Vatican City State)&quot;</value>
+            <value>&quot;Honduras&quot;</value>
+            <value>&quot;Hong Kong&quot;</value>
+            <value>&quot;Hungary&quot;</value>
+            <value>&quot;Iceland&quot;</value>
+            <value>&quot;India&quot;</value>
+            <value>&quot;Indonesia&quot;</value>
+            <value>&quot;Iran, Islamic Republic of&quot;</value>
+            <value>&quot;Iraq&quot;</value>
+            <value>&quot;Ireland&quot;</value>
+            <value>&quot;Isle of Man&quot;</value>
+            <value>&quot;Israel&quot;</value>
+            <value>&quot;Italy&quot;</value>
+            <value>&quot;Jamaica&quot;</value>
+            <value>&quot;Japan&quot;</value>
+            <value>&quot;Jersey&quot;</value>
+            <value>&quot;Jordan&quot;</value>
+            <value>&quot;Kazakhstan&quot;</value>
+            <value>&quot;Kenya&quot;</value>
+            <value>&quot;Korea, Republic of&quot;</value>
+            <value>&quot;Kuwait&quot;</value>
+            <value>&quot;Kyrgyzstan&quot;</value>
+            <value>&quot;Lao People&apos;s Democratic Republic&quot;</value>
+            <value>&quot;Latvia&quot;</value>
+            <value>&quot;Lebanon&quot;</value>
+            <value>&quot;Lesotho&quot;</value>
+            <value>&quot;Liberia&quot;</value>
+            <value>&quot;Libya&quot;</value>
+            <value>&quot;Liechtenstein&quot;</value>
+            <value>&quot;Lithuania&quot;</value>
+            <value>&quot;Luxembourg&quot;</value>
+            <value>&quot;Macau&quot;</value>
+            <value>&quot;Macedonia&quot;</value>
+            <value>&quot;Madagascar&quot;</value>
+            <value>&quot;Malawi&quot;</value>
+            <value>&quot;Malaysia&quot;</value>
+            <value>&quot;Maldives&quot;</value>
+            <value>&quot;Mali&quot;</value>
+            <value>&quot;Malta&quot;</value>
+            <value>&quot;Marshall Islands&quot;</value>
+            <value>&quot;Martinique&quot;</value>
+            <value>&quot;Mauritania&quot;</value>
+            <value>&quot;Mauritius&quot;</value>
+            <value>&quot;Mayotte&quot;</value>
+            <value>&quot;Mexico&quot;</value>
+            <value>&quot;Micronesia, Federated States of&quot;</value>
+            <value>&quot;Moldova, Republic of&quot;</value>
+            <value>&quot;Monaco&quot;</value>
+            <value>&quot;Mongolia&quot;</value>
+            <value>&quot;Montenegro&quot;</value>
+            <value>&quot;Morocco&quot;</value>
+            <value>&quot;Mozambique&quot;</value>
+            <value>&quot;Myanmar&quot;</value>
+            <value>&quot;Namibia&quot;</value>
+            <value>&quot;Nepal&quot;</value>
+            <value>&quot;Netherlands&quot;</value>
+            <value>&quot;New Caledonia&quot;</value>
+            <value>&quot;New Zealand&quot;</value>
+            <value>&quot;Nicaragua&quot;</value>
+            <value>&quot;Niger&quot;</value>
+            <value>&quot;Nigeria&quot;</value>
+            <value>&quot;Northern Mariana Islands&quot;</value>
+            <value>&quot;Norway&quot;</value>
+            <value>&quot;Oman&quot;</value>
+            <value>&quot;Pakistan&quot;</value>
+            <value>&quot;Palestinian Territory&quot;</value>
+            <value>&quot;Panama&quot;</value>
+            <value>&quot;Papua New Guinea&quot;</value>
+            <value>&quot;Paraguay&quot;</value>
+            <value>&quot;Peru&quot;</value>
+            <value>&quot;Philippines&quot;</value>
+            <value>&quot;Poland&quot;</value>
+            <value>&quot;Portugal&quot;</value>
+            <value>&quot;Puerto Rico&quot;</value>
+            <value>&quot;Qatar&quot;</value>
+            <value>&quot;Reunion&quot;</value>
+            <value>&quot;Romania&quot;</value>
+            <value>&quot;Russian Federation&quot;</value>
+            <value>&quot;Rwanda&quot;</value>
+            <value>&quot;Saint Kitts and Nevis&quot;</value>
+            <value>&quot;Saint Lucia&quot;</value>
+            <value>&quot;Saint Martin&quot;</value>
+            <value>&quot;Saint Pierre and Miquelon&quot;</value>
+            <value>&quot;Saint Vincent and the Grenadines&quot;</value>
+            <value>&quot;San Marino&quot;</value>
+            <value>&quot;Sao Tome and Principe&quot;</value>
+            <value>&quot;Saudi Arabia&quot;</value>
+            <value>&quot;Senegal&quot;</value>
+            <value>&quot;Serbia&quot;</value>
+            <value>&quot;Seychelles&quot;</value>
+            <value>&quot;Sierra Leone&quot;</value>
+            <value>&quot;Singapore&quot;</value>
+            <value>&quot;Sint Maarten (Dutch part)&quot;</value>
+            <value>&quot;Slovakia&quot;</value>
+            <value>&quot;Slovenia&quot;</value>
+            <value>&quot;Solomon Islands&quot;</value>
+            <value>&quot;Somalia&quot;</value>
+            <value>&quot;South Africa&quot;</value>
+            <value>&quot;South Sudan&quot;</value>
+            <value>&quot;Spain&quot;</value>
+            <value>&quot;Sri Lanka&quot;</value>
+            <value>&quot;Sudan&quot;</value>
+            <value>&quot;Suriname&quot;</value>
+            <value>&quot;Swaziland&quot;</value>
+            <value>&quot;Sweden&quot;</value>
+            <value>&quot;Switzerland&quot;</value>
+            <value>&quot;Syrian Arab Republic&quot;</value>
+            <value>&quot;Taiwan&quot;</value>
+            <value>&quot;Tajikistan&quot;</value>
+            <value>&quot;Tanzania, United Republic of&quot;</value>
+            <value>&quot;Thailand&quot;</value>
+            <value>&quot;Togo&quot;</value>
+            <value>&quot;Tonga&quot;</value>
+            <value>&quot;Trinidad and Tobago&quot;</value>
+            <value>&quot;Tunisia&quot;</value>
+            <value>&quot;Turkey&quot;</value>
+            <value>&quot;Turks and Caicos Islands&quot;</value>
+            <value>&quot;Uganda&quot;</value>
+            <value>&quot;Ukraine&quot;</value>
+            <value>&quot;United Arab Emirates&quot;</value>
+            <value>&quot;United Kingdom&quot;</value>
+            <value>&quot;United States&quot;</value>
+            <value>&quot;Uruguay&quot;</value>
+            <value>&quot;Uzbekistan&quot;</value>
+            <value>&quot;Vanuatu&quot;</value>
+            <value>&quot;Venezuela&quot;</value>
+            <value>&quot;Vietnam&quot;</value>
+            <value>&quot;Virgin Islands, U.S.&quot;</value>
+            <value>&quot;Wallis and Futuna&quot;</value>
+            <value>&quot;Yemen&quot;</value>
+            <value>&quot;Zambia&quot;</value>
+            <value>&quot;Zimbabwe&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column aggregation='None' datatype='string' name='[Country or Region (optional)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at' datatype='integer' name='[Privacy:You‰Ûªre planning on buying your next cool new tech toy. Maybe it‰Ûªs a smart TV or a new smartphone. åÊTake a look at ]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Response ID]' role='dimension' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.69683' measure-ordering='alphabetic' measure-percentage='0.30317' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Vis1</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='20171013111831-SurveyExport' name='federated.16k9mrz0w3p68b16ieth002zx3oh' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.16k9mrz0w3p68b16ieth002zx3oh'>
+            <column aggregation='None' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country]' derivation='Count' name='[cnt:Country:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Country:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Country:nk]' />
+              <groupfilter function='member' level='[none:Country:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.16k9mrz0w3p68b16ieth002zx3oh].[cnt:Country:qk]' />
+              <text column='[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='sticky' />
+      </table>
+      <simple-id uuid='{DFB4D1A0-53D9-4A63-BDD5-CAF15084BD17}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Vis2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='20171013111831-SurveyExport' name='federated.16k9mrz0w3p68b16ieth002zx3oh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16k9mrz0w3p68b16ieth002zx3oh'>
+            <column datatype='datetime' name='[Date Submitted]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Submitted]' derivation='Count' name='[cnt:Date Submitted:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Submitted]' derivation='None' name='[none:Date Submitted:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Date Submitted:qk]' field-type='quantitative' max='#2017-09-07 11:22:39#' min='#2017-08-20 19:17:20#' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.16k9mrz0w3p68b16ieth002zx3oh].[cnt:Date Submitted:qk]' scope='rows' value='Number of Submissions' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+                <format attr='mark-color' value='#72b966' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16k9mrz0w3p68b16ieth002zx3oh].[cnt:Date Submitted:qk]</rows>
+        <cols>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Date Submitted:qk]</cols>
+      </table>
+      <simple-id uuid='{8485C3EA-E5D5-4BBC-A8A9-E6A6E6BB9B1A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[Country (group)]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Country:nk]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Response ID:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ED5D5D77-F17B-4EF3-B895-21CFF5676FF8}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[cnt:Date Submitted:qk]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Response ID:ok]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[none:Time Started:qk]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[yr:Date Submitted:ok]</field>
+            <field>[federated.16k9mrz0w3p68b16ieth002zx3oh].[yr:Time Started:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E4882485-73C3-4949-AF2C-CD15CD8A15CE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      8gepAQbTOchYIgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
